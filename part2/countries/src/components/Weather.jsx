@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { getWeather } from "../services/WeatherServices";
+import { getWeather } from "../services/CountriesServices";
 
 const WeatherDetails = ({ capitalName }) => {
     const [loading, setLoading] = useState(true);
